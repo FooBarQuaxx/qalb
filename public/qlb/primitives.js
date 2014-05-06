@@ -98,6 +98,12 @@ Qlb.globalEnvironment.merge({
 
   // input/output
 
+  "قل":    // say
+  function(str) {
+    Qlb.console.log(str);
+    return str;
+  },
+
   "قول":    // say
   function(str) {
     Qlb.console.log(str);

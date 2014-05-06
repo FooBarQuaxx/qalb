@@ -11,3 +11,8 @@ get '/' do
   content_type :html, 'charset' => 'utf-8'
   send_file "public/repl.html"
 end
+
+get '/editor' do
+  content_type :html, 'charset' => 'utf-8'
+  send_file "public/editor.html"
+end

@@ -135,13 +135,13 @@ Qlb.handleUncaughtException = function(e) {
 
 var global = this;
 
-// Default console is window consle
+// Default console is window console
 Qlb.console = global.console;
 
 // Default http adapter.
 Qlb.http = {
   // Warning this is a Sync AJAX request. It's good 
-  // because async is contageois and would make the interpreter async.
+  // because async is contagious and would make the interpreter async.
   // However this is bad in the main thread;
   get: function (url) {
     var xhr = new XMLHttpRequest();
