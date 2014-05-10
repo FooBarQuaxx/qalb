@@ -1,3 +1,5 @@
+#!/usr/bin/env nodejs
+
 var PEG = require('pegjs'),
     path = require('path'),
     fs  = require('fs');
