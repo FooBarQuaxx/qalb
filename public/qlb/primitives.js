@@ -214,4 +214,5 @@ Qlb.globalEnvironment.merge({
       return prv / cur;
     });
   }
+
 });

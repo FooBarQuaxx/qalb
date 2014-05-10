@@ -1,3 +1,6 @@
 .DS_Store
+tags
 node_modules
 *.log
+tmp/
+public/js/rainbow/language/
